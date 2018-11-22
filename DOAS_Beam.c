@@ -346,8 +346,7 @@ float DOAS_Beam(complex *channel1, complex *channel2, int num_mic, int sample_ff
 int main(int argc, char **argv){
 	
     FILE *fd = fopen("datatest.txt", "w");
-    
-    
+     
     int K = 800, N = 2;
     complex *result1, *result2;
     result1 = wavread("a.wav", "open1.txt", K*2);
@@ -356,7 +355,7 @@ int main(int argc, char **argv){
     float angle;
     angle = DOAS_Beam(result1, result2 , N, K);
 
-    fprintf(fd, "%d      %f\n", K*2, angle + 10); 
+    fprintf(fd, "%d      %f\n", K*2, angle + 20); 
    
     fclose(fd);
     return 0;
