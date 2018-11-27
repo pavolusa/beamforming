@@ -356,7 +356,7 @@ int main(int argc, char **argv){
     float angle;
     angle = DOAS_Beam(result1, result2 , N, K);
 
-    fprintf(fd, "%d      %f\n", K*2, angle); 
+    fprintf(fd, "%d      %f\n", K*2, angle+10; 
    
     fclose(fd);
     return 0;
