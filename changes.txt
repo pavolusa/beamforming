@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 changes a
 
 changes continue
+=======
+changes b
+>>>>>>> d8c5c558a37d9fd31fc3ca7389a3fab3d52fd153
